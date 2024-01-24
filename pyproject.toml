@@ -1,6 +1,6 @@
 [project]
 name = "backporting"
-version = "0.0.4"
+version = "0.0.5"
 authors = [
   { name="Levon Yeghiazaryan", email="levon2111@gmail.com" },
 ]
@@ -20,3 +20,7 @@ Issues = "https://github.com/levon2111/backporting/issues"
 
 [build-system]
 requires = ["setuptools == 68.2.2"]
+
+
+[project.scripts]
+backporting = "src.backporting_tool.app:main"
