@@ -21,4 +21,6 @@ setup(
         "Programming Language :: Python :: 3.6",
     ],
     zip_safe=True,
+    py_modules=["backporting"],
+
 )
