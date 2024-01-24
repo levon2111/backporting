@@ -1,6 +1,6 @@
 import os
 
-from google_diff_match_patch import diff_match_patch
+from src.backporting_tool.google_diff_match_patch import diff_match_patch
 
 
 class BackPortingSystem:

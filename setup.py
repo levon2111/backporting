@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="backporting",
-    version="0.0.5",
+    version="1.0.0",
     description="A Python client for backporting.",
     license="MIT",
     author="LY",
